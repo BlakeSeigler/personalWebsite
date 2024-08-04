@@ -15,7 +15,6 @@ function App() {
       </header>
       <body>
         <Announcement></Announcement>
-        <Contact></Contact>
       </body>
       <footer>
         <p> ©2024 Blake Seigler inc </p>
