@@ -1,26 +1,20 @@
-import './App.css';
-import Menu from './Menu.js'
-import Announcement from './Announcement.js'
-import Contact from './Contact.js'
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Home from './Home';
+import About from './About';
+import Contact from './Contact';
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Menu className="menu-bar"></Menu>
-        <h1 className='my-name'>
-          Blake Seigler
-        </h1>
-      </header>
-      <body>
-        <Announcement></Announcement>
-      </body>
-      <footer>
-        <p> ©2024 Blake Seigler inc </p>
-      </footer>
-    </div>
-  );
-}
+      <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+      </Router>
+    );
+  };
 
 export default App;

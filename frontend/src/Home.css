@@ -1,0 +1,49 @@
+.App {
+    background-color: black;
+  }
+  
+  .App p {
+    color: white;
+  }
+  
+  .menu-bar {
+    display: flex;
+    justify-content: flex-end; /* Align menu to the right */
+    width: 100%;
+  }
+  
+  .App-header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../../Planet-Earth-with-rising-sun-in-space-backgrounds.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .App-header h1 {
+    margin: 0;
+    padding: 20px 50px;
+    font-size: 4rem;
+    color: white;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    align-self: flex-start; /* Align the h1 to the start of the header */
+    display: flex;
+    flex-grow: 1;
+    align-items: center; /* Center vertically */
+  }
+  
+  footer {
+    font-size: 4%;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  body {
+    height: 800px;
+  }
+  

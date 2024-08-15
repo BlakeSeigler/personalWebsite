@@ -3,4 +3,9 @@ button {
     border-radius: 2px;
     border-color: grey;
     align-content: center;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    font-family: monospace;
 }
