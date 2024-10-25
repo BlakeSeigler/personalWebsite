@@ -1,26 +1,25 @@
-import './App.css';
+import './Home.css';
 import Menu from './Menu.js'
-import Announcement from './Announcement.js'
 
 
-function App() {
+function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <html className="home">
+      <header className="home-header">
         <Menu className="menu-bar"></Menu>
-        <h1 className='my-name'>
-          Blake Seigler
-        </h1>
       </header>
       <body>
-        <br className="spacer"></br>
-        <Announcement></Announcement>
+        <div className="main-text">
+            <h1>Hi I'm Blake</h1>
+            <h3>This is my website</h3>
+        </div>
       </body>
+        
       <footer>
         <p> ©2024 Blake Seigler inc </p>
       </footer>
-    </div>
+    </html>
   );
 }
 
-export default App;
+export default Home;

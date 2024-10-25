@@ -1,3 +1,74 @@
-h3 {
+
+html {
+    background-color: rgb(244, 212, 150);
     color: black;
+    width: 100%;
+    height: 100%
+}
+
+body {
+    color: black;
+    height:800px
+}
+
+.page-title {
+    font-size: xx-large;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Self-Portrait {
+    width: 450px;
+    aspect-ratio: 1.33272395vw;
+    border-radius: 10px;
+}
+
+a image {
+    width: 100px;
+    height: 100px;
+}
+
+.Contact-Information {
+    width: 200px;
+}
+
+.left-column {
+    grid-column: 1/2;
+    width:50%;
+}
+
+.right-column {
+    grid-column: 2/2;
+    width: 50%;
+    justify-self: left;
+}
+
+.main-column-organization {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+#social-link-container {
+    display:flex;
+    flex-direction: row;
+}
+
+.social-links {
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.go-back-button {
+    justify-self: flex-end;
+    margin-right: 200px;
+}
+
+.about-page-footer {
+    display: flex;
+    flex-direction: row;
 }

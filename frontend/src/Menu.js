@@ -8,8 +8,8 @@ const Menu = () => {
     return (
         <div className='menu-bar'>
             <button onClick={() => navigate('/')}>Home</button>
-            <button onClick={() => navigate('/about')}>About</button>
-            <button onClick={() => navigate('/contact')}>Contact</button>         
+            <button onClick={() => navigate('/projects')}>Projects</button>
+            <button onClick={() => navigate('/about')}>About Me</button>         
         </div>
     );
 }

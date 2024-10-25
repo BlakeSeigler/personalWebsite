@@ -3,12 +3,13 @@
 }
 
 .App p {
-  color: white;
+  color: black;
 }
 
 .menu-bar {
   display: flex;
   justify-content: flex-end; /* Align menu to the right */
+  background-color: black;
   width: 100%;
 }
 
@@ -28,6 +29,7 @@
   margin: 0;
   padding: 20px 50px;
   font-size: 4rem;
+  background-color: black;
   color: white;
   text-align: left;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -41,8 +43,10 @@ footer {
   font-size: 4%;
   text-align: center;
   padding-bottom: 20px;
+  background-color: black;
 }
 
 body {
   height: 800px;
+  background-color: black;
 }
