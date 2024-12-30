@@ -8,7 +8,7 @@ import ProjectDetail from './ProjectDetail';
 // Images for the Projects
 const BMS_System1 = require('./media/BMS_System1.jpg')
 const Personal_Website1 = require('./media/Personal_Website1.jpeg')
-const Ram_Robotics1 = require('./media/Ram_Robotics1.jpeg')
+const Ram_Robotics1 = require('./media/Ram_Robotics1.png')
 const Ionic_Radii1 = require('./media/Ionic_Radii1.jpeg')
 const AMFM_Radio1 = require('./media/AMFM_Radio1.jpeg')
 const AMFM_Radio2 = require('./media/AMFM_Radio2.jpeg')
