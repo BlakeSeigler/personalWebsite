@@ -16,7 +16,7 @@ function Home() {
       </body>
         
       <footer>
-        <p> ©2024 Blake Seigler inc </p>
+        <p> ©2025 Blake Seigler inc </p>
       </footer>
     </html>
   );
