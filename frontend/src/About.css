@@ -11,6 +11,10 @@ body {
     height:800px
 }
 
+.Text-Description {
+    font-size: 10pt;
+}
+
 .page-title {
     font-size: xx-large;
     justify-content: center;
