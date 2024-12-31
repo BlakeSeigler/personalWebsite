@@ -12,7 +12,7 @@ const Ram_Robotics1 = require('./media/Ram_Robotics1.png')
 const Ionic_Radii1 = require('./media/Ionic_Radii1.jpeg')
 const AMFM_Radio1 = require('./media/AMFM_Radio1.jpeg')
 const AMFM_Radio2 = require('./media/AMFM_Radio2.jpeg')
-const Fermi_Problems1 = require('./media/fermi_problems.jpeg')
+const Fermi_Problems1 = require('./media/fermi_problems1.jpeg')
 
 const Projects_Page = () => {
     const [selectedProject, setSelectedProject] = useState(null);
