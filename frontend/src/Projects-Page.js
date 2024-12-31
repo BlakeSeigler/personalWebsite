@@ -12,6 +12,7 @@ const Ram_Robotics1 = require('./media/Ram_Robotics1.png')
 const Ionic_Radii1 = require('./media/Ionic_Radii1.jpeg')
 const AMFM_Radio1 = require('./media/AMFM_Radio1.jpeg')
 const AMFM_Radio2 = require('./media/AMFM_Radio2.jpeg')
+const Fermi_Problems1 = require('./media/fermi_problems.jpeg')
 
 const Projects_Page = () => {
     const [selectedProject, setSelectedProject] = useState(null);
@@ -51,8 +52,8 @@ const Projects_Page = () => {
         {
             id: 2,
             title: "Fermi Problem Site",
-            description: "Description of Project 3",
-            images: ["image5.jpg", "image6.jpg"],
+            description: "For this project, my goal was to design a web app to store subscribers and send out emails containing unique fermi problems that I can think about for fun. As another challenge, I also wanted to host this webapp on a server run out of my personal PC. For this project, I utilized Nodejs for the backend api, Apache for my PCs web server, MongoDB for the database, and the OpenAI api to generate fermi problems for me. This project took much longer than expected to debug because of my inexperience with debugging GET and POST requests when they failed. I also got the oppurtuntiy to learn more about networking by setting up port forwarding (this took way longer than it should have), and managing my PCs firewall. For the server, I also had to utilize Docker in order to use MongoDB as for some reason my OS on my PC wasn't able to properly support all of the dependencies for Mongo 6.0 but in the end a docker container worked like a charm.",
+            images: [Fermi_Problems1],
         },
         {
             id: 1,

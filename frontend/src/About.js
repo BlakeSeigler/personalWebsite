@@ -34,7 +34,7 @@ const About = () => {
                     </div> 
                 </div>
                 <div className='right-column'>
-                    <p className='Text-Description'>This is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a descriptionThis is a description</p>
+                    <p className='Text-Description'>This is a descriptionThis is a description</p>
                 </div>
                 </div>
             </body>
