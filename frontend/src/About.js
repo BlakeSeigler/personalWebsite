@@ -6,7 +6,8 @@ import Menu from './Menu'
 // import instagram_logo from './media/instagram-logo.jpeg'
 const instagram_logo = require('./media/instagram-logo.png')
 const linkedin_logo = require('./media/linkedin-logo.png')
-const me_picutre = require('./media/SelfPicture.png')
+const github_logo = require('./media/github-logo.png')
+const me_picture = require('./media/SelfPicture.png')
 
 const About = () => {
     const navigate = useNavigate()
@@ -18,7 +19,7 @@ const About = () => {
                 <h1 className='page-title'><u>About Me</u></h1>
                 <div className='main-column-organization'>
                     <div className='left-column'>
-                    <img className='Self-Portrait' src={me_picutre}></img> 
+                    <img className='Self-Portrait' src={me_picture}></img> 
                     <div className='Contact Information'>
                         <h3>Contact Info</h3>
                         <p>seiglerblake@gmail</p>
@@ -29,6 +30,9 @@ const About = () => {
                             </a>
                             <a href="https://www.linkedin.com/in/blake-seigler" alt="LinkedIn" target="_blank">
                                 <img src={linkedin_logo} className='social-links'></img>
+                            </a>
+                            <a href="https://www.https://github.com/BlakeSeigler" alt="Github" target="_blank">
+                                <img src={github_logo} className='social-links'></img>
                             </a>
                         </div>
                     </div> 
