@@ -31,7 +31,7 @@ const About = () => {
                             <a href="https://www.linkedin.com/in/blake-seigler" alt="LinkedIn" target="_blank">
                                 <img src={linkedin_logo} className='social-links'></img>
                             </a>
-                            <a href="https://www.https://github.com/BlakeSeigler" alt="Github" target="_blank">
+                            <a href="https://www.github.com/BlakeSeigler" alt="Github" target="_blank">
                                 <img src={github_logo} className='social-links'></img>
                             </a>
                         </div>
