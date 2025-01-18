@@ -1,3 +1,6 @@
+/*
+ This code is for larger screens, specifically for most computer applications 
+ */
 
 html {
     background-color: rgb(244, 212, 150);
@@ -10,7 +13,7 @@ body {
     color: black;
     height:800px;
     width: 1450px
-
+    
 }
 
 .Text-Description {
@@ -22,7 +25,6 @@ body {
     justify-content: center;
     display: flex;
     flex-direction: row;
-    justify-content: center;
 }
 
 .Self-Portrait {
@@ -77,4 +79,66 @@ a image {
 .about-page-footer {
     display: flex;
     flex-direction: row;
+}
+
+
+/* 
+This code is for small screens, specifically for phones that click on the site
+ */
+@media (max-width: 600px){
+
+    .mobile-column {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .Text-Description {
+        font-size: 10pt;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    body {
+        color: black;
+        height:800px;
+        width: 600px
+    }
+
+    .main-column-organization {
+        justify-items: center;
+    }
+
+    .left-column {
+        grid-column: auto;
+        width: auto;
+        justify-self: center;
+    }
+    
+    .right-column {
+        grid-column: auto;
+        width: auto;
+        justify-self: center;
+    }
+
+    .Self-Portrait {
+        width: 250px;
+        aspect-ratio: 1.33272395vw;
+        border-radius: 10px;
+    }
+    
+    .go-back-button {
+        justify-self: flex-end;
+        align-self: center;
+    }
+
+    #social-link-container {
+        display:flex;
+        flex-direction: row;
+    }
+
+    .about-page-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
