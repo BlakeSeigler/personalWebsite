@@ -2,7 +2,7 @@
 html {
   background-color: rgb(244, 212, 150); /* change to gradient eventually I think */
   color: black ;
-  height: 100%; /* Full viewport height */
+  height: 100%; 
   width: 100%;
 }
   
@@ -11,7 +11,7 @@ html {
     display: flex;
     justify-content: flex-end; 
     width: 100%;
-    height: 6vh;
+    height: 50px;
   }
   
   .home-header {
@@ -22,7 +22,6 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
-    height: 6vh;
   }
 
   .main-text {
@@ -36,18 +35,18 @@ html {
   }
 
   .main-text h1 {
-    font-size: 10vh;
+    font-size: 70px;
     font-weight: 100;
   }
 
   .main-text h3 {
-    font-size: 2vh;
+    font-size: 15px;
     font-weight: 100;
   }
 
   footer {
     font-size: 4%;
-    height: 1vh;
+    height: 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;

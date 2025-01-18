@@ -10,7 +10,7 @@ function Home() {
       </header>
       <body>
         <div className="main-text">
-            <h1>Hi I'm Blake</h1>
+            <h1>Hi, I'm Blake</h1>
             <h3>This is my website</h3>
         </div>
       </body>
