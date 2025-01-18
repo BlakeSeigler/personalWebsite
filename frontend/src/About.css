@@ -85,7 +85,7 @@ a image {
 /* 
 This code is for small screens, specifically for phones that click on the site
  */
-@media (max-width: 800px){
+@media (max-width: 900px){
 
     .mobile-column {
         display:flex;
