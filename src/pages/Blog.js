@@ -22,7 +22,7 @@ export default function Blog() {
           </div>
           <h1 className="pageTitle reveal delay1">Blog</h1>
           <p className="pageSub reveal delay2">
-            Posts pulled from Medium at build time. Click a card to read the full article.
+            Blogs I've written. Click a card to read the full article.
           </p>
         </div>
 

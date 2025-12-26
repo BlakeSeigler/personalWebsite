@@ -26,9 +26,9 @@ export default function Home() {
         <div className="container">
           <div className="homeHeroInner">
             <div className="homeTop">
-              <h1 className="homeTitle reveal">Blake Seigler</h1>
+              <h1 className="homeTitle reveal">Hi, I'm Blake Seigler</h1>
               <p className="homeLead reveal delay1">
-                Minimal interfaces, clear systems, shipped fast.
+                I believe in simplicity, intensity, and urgency. I want to work on projects that solve real problems.
               </p>
             </div>
 
