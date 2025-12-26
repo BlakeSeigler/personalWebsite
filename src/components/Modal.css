@@ -1,0 +1,57 @@
+.modalOverlay{
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(0,0,0,.66);
+  display: grid;
+  place-items: center;
+  padding: 18px;
+}
+
+.modalDialog{
+  width: min(900px, 100%);
+  max-height: min(80vh, 760px);
+  overflow: hidden;
+  border-radius: 22px;
+  border: 1px solid var(--border);
+  background: var(--modal-bg);
+  box-shadow: var(--modal-shadow);
+  backdrop-filter: blur(10px);
+}
+
+.modalHeader{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 18px 18px 10px 18px;
+  border-bottom: 1px solid var(--border);
+}
+
+.modalTitle{
+  margin: 10px 0 0 0;
+  font-size: 22px;
+  letter-spacing: -0.03em;
+}
+
+.modalClose{
+  width: 40px;
+  height: 40px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--fg);
+  cursor: pointer;
+  transition: transform .12s ease, background .12s ease;
+}
+.modalClose:hover{
+  transform: translateY(-1px);
+  background: var(--panel-strong);
+}
+
+.modalBody{
+  padding: 18px;
+  overflow: auto;
+}
+
+

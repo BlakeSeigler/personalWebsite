@@ -1,0 +1,99 @@
+.navWrap{
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: none;
+  background: transparent;
+}
+
+.navInner{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.navLeft{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.brand{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+}
+.brand:hover{
+  border-color: var(--border);
+  background: var(--panel);
+}
+.brandMark{
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: var(--fg);
+  box-shadow: 0 0 0 6px var(--faint);
+}
+.brandText{
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-size: 14px;
+}
+
+.themeToggle{
+  height: 38px;
+  min-width: 38px;
+  padding: 0 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--fg);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+  transition: transform .12s ease, background .12s ease, border-color .12s ease;
+}
+.themeToggle:hover{
+  transform: translateY(-1px);
+  background: var(--panel-strong);
+  border-color: var(--border);
+}
+
+.nav{
+  display: flex;
+  gap: 6px;
+  padding: 6px;
+  border-radius: 999px;
+  border: none;
+  background: transparent;
+}
+
+.navLink{
+  padding: 10px 12px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--muted);
+  border: 1px solid transparent;
+  transition: background .15s ease, color .15s ease, border-color .15s ease;
+}
+.navLink:hover{
+  color: var(--fg);
+  background: var(--panel);
+}
+.navLink.active{
+  color: var(--fg);
+  border-color: var(--border);
+  background: var(--panel-strong);
+}
+
+@media (max-width: 520px){
+  .brandText{ display: none; }
+  .navLink{ padding: 10px 10px; }
+}
+

@@ -1,0 +1,68 @@
+.aboutGrid{
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  gap: 12px;
+}
+
+.aboutPhoto{
+  padding: 12px;
+}
+.aboutImg{
+  width: 100%;
+  display: block;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+}
+
+.aboutCopy{
+  padding: 18px;
+}
+.aboutH2{
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: -0.02em;
+}
+.aboutP{
+  margin: 12px 0 0 0;
+  color: var(--fg);
+  line-height: 1.75;
+}
+
+.aboutList{
+  margin-top: 16px;
+  border-top: 1px solid rgba(245,245,245,.10);
+  padding-top: 14px;
+  display: grid;
+  gap: 10px;
+}
+.aboutListRow{
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 12px;
+}
+.aboutLabel{
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.aboutValue{
+  color: var(--fg);
+  line-height: 1.6;
+}
+
+.aboutNote{
+  margin-top: 16px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px dashed var(--border);
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+@media (max-width: 980px){
+  .aboutGrid{ grid-template-columns: 1fr; }
+}
+
+

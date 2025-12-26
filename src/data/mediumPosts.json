@@ -1,0 +1,16 @@
+[
+  {
+    "id": "sample-1",
+    "title": "A minimalist mindset for building software",
+    "url": "https://medium.com/",
+    "publishedAt": "2025-12-26T18:16:19.006Z",
+    "excerpt": "A short example excerpt. When you connect your Medium RSS, this will populate automatically at build time."
+  },
+  {
+    "id": "sample-2",
+    "title": "Notes on systems, tradeoffs, and clarity",
+    "url": "https://medium.com/",
+    "publishedAt": "2025-12-25T18:16:19.007Z",
+    "excerpt": "Another example card showing title + description + date. Clicking will take you to Medium."
+  }
+]
