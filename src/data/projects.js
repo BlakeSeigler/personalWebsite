@@ -5,7 +5,7 @@ export const projects = [
     image: "/media/Personal_Website1.jpeg",
     shortDescription: "A clean, fast portfolio site with a minimalist UI and bold typography.",
     longDescription:
-      "A personal home on the internet designed to be simple and intentional. Built as a React SPA with a monochrome design system, responsive layouts, and small motion details that stay out of the way.",
+      "A personal home on the internet designed to be simple and intentional. Built as a React SPA with a monochrome design system, responsive layouts, and small motion details that stay out of the way. The picture is the old version but I scrapped it because it was ugly. Welcome to the new version!",
     tech: ["React", "React Router", "CSS", "Vercel"],
     links: [
       { label: "Live Site", href: "https://example.com" },
@@ -16,31 +16,21 @@ export const projects = [
     id: "amfm-radio",
     title: "AM/FM Radio Project",
     image: "/media/AMFM_Radio1.jpeg",
-    shortDescription: "A hardware + software build exploring signal processing and tuning workflows.",
+    shortDescription: "A hardware project teaching me about signal processing and fabrication skills.",
     longDescription:
-      "A hands-on build focused on translating theory into something tangible. Documented design tradeoffs, tested different tuning approaches, and iterated toward a clean, functional result.",
+      "A project to learn about signal processing and fabrication skills. Assigned for a course (AM Radio project) but went above and beyond to do the full AM/FM module. I gained a lot of soldering and fixing expertise.",
     tech: ["Embedded", "Signal Processing", "Prototyping"],
     links: [{ label: "Write-up", href: "https://example.com" }]
   },
   {
-    id: "bms-system",
-    title: "Battery Management System",
-    image: "/media/BMS_System1.jpg",
-    shortDescription: "Monitoring + safety logic for battery packs with a focus on reliability.",
-    longDescription:
-      "A project centered on safe battery operation: sensing, thresholds, and failure modes. Emphasis on clarity, predictable behavior, and testability.",
-    tech: ["Electronics", "Firmware", "Safety"],
-    links: [{ label: "Overview", href: "https://example.com" }]
-  },
-  {
-    id: "robotics",
-    title: "Robotics Build",
+    id: "ram-engineering",
+    title: "R.A.M. Engineering",
     image: "/media/Ram_Robotics1.png",
-    shortDescription: "Mechanics + control experiments, built iteratively from simple to capable.",
+    shortDescription: "An organization I started to help students get involved in engineering projects",
     longDescription:
-      "A robotics project emphasizing iterative design: start small, validate assumptions, then scale. Combined mechanical design considerations with control and software structure.",
-    tech: ["Robotics", "Control", "CAD"],
-    links: [{ label: "Gallery", href: "https://example.com" }]
+      "An organization dedicated to helping students get involved in engineering projects. We've built a lot of things, from robots to microfabrication projects to aeronautics projects. We're always looking for new projects to work on! Building this organization has been one of the most rewarding and educationalexperiences of my life.",
+    tech: ["Robotics", "Aeronautics", "Microfabrication"],
+    links: [{ label: "Gallery", href: "https://ram-engineering.org" }]
   },
   {
     id: "fermi",
@@ -50,7 +40,17 @@ export const projects = [
     longDescription:
       "A small collection of Fermi-style problems. The goal is not precision, but structured reasoning, sanity checks, and communicating assumptions clearly.",
     tech: ["Estimation", "Modeling", "Communication"],
-    links: [{ label: "Read", href: "https://example.com" }]
+    links: [{ label: "Read", href: "https://github.com/blakeseigler/Fermi_Problems" }]
+  },
+  {
+    id: "pdf2audio",
+    title: "PDF 2 Audio",
+    image: "/media/pdf2audio.jpeg",
+    shortDescription: "A quick tool to convert PDF files to audio files.",
+    longDescription:
+      "I was on the go a lot and wanted to listen to PDFs. This is a quick tool to convert PDF files to audio files so I could keep 'reading'. There are problems with the filtering that still need to be worked out for better performance.",
+    tech: ["TTS ML Model", "Python", "Hugging Face"],
+    links: [{ label: "Read", href: "https://github.com/blakeseigler/pdf2audio" }]
   }
 ];
 
