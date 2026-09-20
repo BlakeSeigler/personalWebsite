@@ -12,8 +12,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "prestart": "node scripts/fetchMediumRss.mjs",
-    "prebuild": "node scripts/fetchMediumRss.mjs",
+    "_prestart_disabled": "node scripts/fetchMediumRss.mjs",
+    "_prebuild_disabled": "node scripts/fetchMediumRss.mjs",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

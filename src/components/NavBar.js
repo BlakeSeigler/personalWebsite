@@ -55,7 +55,7 @@ export default function NavBar() {
           <NavItem to="/">Home</NavItem>
           <NavItem to="/projects">Projects</NavItem>
           <NavItem to="/about">About</NavItem>
-          <NavItem to="/blog">Blog</NavItem>
+          {/* <NavItem to="/blog">Blog</NavItem> */}
         </nav>
       </div>
     </header>
